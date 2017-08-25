@@ -5,11 +5,13 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { PageCoverComponent } from './page-cover/page-cover.component';
+import { WhatIDoComponent } from './what-i-do/what-i-do.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PageCoverComponent
+    PageCoverComponent,
+    WhatIDoComponent
   ],
   imports: [
     BrowserModule,
